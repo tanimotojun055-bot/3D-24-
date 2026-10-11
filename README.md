@@ -1,5 +1,3 @@
-# 3D-24-
-3Dハッシュへの24分岐探索の実装
 
 Geometric Cryptographic Memory
 
@@ -485,11 +483,7 @@ $$\mathcal{M}(t)={g_{ij},\phi,P,E,q_{\ell m}}$$
 
 として定義する。
 
-通常のメモリが、
-
-bit
-
-を保持するのに対し、GCMでは、
+通常のメモリが bit を保持するのに対し、GCMでは、
 
 geometry + field + energy + mode
 
@@ -684,14 +678,7 @@ $$\mathcal{G}\in{\mathrm{sphere},\mathrm{ellipsoid},\mathrm{cone},\mathrm{cylind
 
 を考える。
 
-形状ごとに、
-
-- 計量
-- 境界条件
-- 固有モード
-- 固有値スペクトル
-
-が異なる。
+形状ごとに、計量、境界条件、固有モード、固有値スペクトルが異なる。
 
 $$\mathcal{G}\rightarrow{\lambda_n^{(\mathcal{G})}}$$
 
@@ -725,16 +712,7 @@ geometry + topology + field
 
 GCMでは、暗号空間を一種の人工的な動的宇宙として扱うことができる。
 
-状態変数として、
-
-- Expansion
-- Contraction
-- Rotation
-- Curvature
-- Mode Excitation
-- Energy Transition
-
-を考える。
+状態変数として、Expansion、Contraction、Rotation、Curvature、Mode Excitation、Energy Transition を考える。
 
 ここでは宇宙論そのものを暗号と同一視するのではなく、
 
@@ -891,6 +869,20 @@ $$\mathcal{M}_i\rightarrow\mathcal{M}_j$$
 «The geometric state of space is the cryptographic memory.»
 
 である。
+
+---
+
+37. Author and AI Collaboration
+
+本研究の基本着想、研究方針、3Dハッシュ構想、Geometric Cryptographic Memory の概念設計および理論的方向性は、研究者本人によって提案・検討された。
+
+本稿の文章整理、数式表現、理論構成、数式展開、関連する物理・暗号概念の整理には、OpenAI の ChatGPT（GPT-5.6 Sol） を共同検討・執筆支援ツールとして使用した。
+
+ChatGPT は、研究上のアイデアを数式化・構造化・文章化するための支援を行っているが、研究内容の最終的な判断、採用、公開および責任は著者に帰属する。
+
+Collaboration Statement
+
+«This work was developed through collaborative discussion between the author and OpenAI's ChatGPT. The original research concepts, research direction, and final responsibility remain with the author. ChatGPT was used to assist with mathematical formulation, structural organization, theoretical exploration, and manuscript drafting.»
 
 ---
 
